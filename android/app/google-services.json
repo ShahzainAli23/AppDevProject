@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "627496204476",
+    "project_id": "darbs-app",
+    "storage_bucket": "darbs-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627496204476:android:b9a24e9e0e7079e24bf8b9",
+        "android_client_info": {
+          "package_name": "com.example.darb_food_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627496204476-ppiv40p21jf5o082fv158u2io9r1o8i7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.darb_food_app",
+            "certificate_hash": "9a67aadc172ba364da56dc364305b57c629eb654"
+          }
+        },
+        {
+          "client_id": "627496204476-7gnn5tbfih10tvpgu70duh6sn9tuce9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHEBElgIS-yIAvhGlQPMe-wykHITH8RPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627496204476-7gnn5tbfih10tvpgu70duh6sn9tuce9d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "627496204476-p8i0f7ru3j5tq3qfhm8im4on9gpph2fk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.darbFoodApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
