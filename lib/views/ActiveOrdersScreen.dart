@@ -167,11 +167,11 @@ class _ActiveOrdersScreenState extends State<ActiveOrdersScreen> {
                           style: const TextStyle(color: Colors.white70),
                         ),
                         const SizedBox(width: 12),
-                        const Icon(
-                          Icons.attach_money,
-                          color: Colors.white70,
-                          size: 18,
-                        ),
+                        // const Icon(
+                        //   Icons.attach_money,
+                        //   color: Colors.white70,
+                        //   size: 18,
+                        // ),
                         const SizedBox(width: 4),
                         Text(
                           'Rs $total',
