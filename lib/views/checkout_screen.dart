@@ -4,6 +4,7 @@ import 'login_screen.dart';
 import 'cart_provider.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:provider/provider.dart';
+import 'ActiveOrdersScreen.dart';
 
 class CheckoutScreen extends StatefulWidget {
   final bool isGuest;
@@ -256,7 +257,13 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                                 ),
                               );
 
-                              Navigator.pop(context);
+                              Navigator.pushAndRemoveUntil(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (_) => const ActiveOrdersScreen(),
+                                ),
+                                (route) => false,
+                              );
                             },
                     child: const Text(
                       'Place Order',
